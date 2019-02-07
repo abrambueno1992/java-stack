@@ -62,6 +62,11 @@ public class Stack {
     }
 
     public int getX() {
+        if (x == 0) {
+            System.out.println("There are no items in your stack");
+        } else {
+            System.out.println(x);
+        }
         return x;
     }
 
