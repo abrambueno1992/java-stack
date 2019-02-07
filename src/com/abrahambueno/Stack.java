@@ -36,7 +36,7 @@ public class Stack {
         stack = newArray(stack);
     }
     public String[] newArray(String[] arr) {
-        if (arr == null || x < 0 || x >= arr.length) {
+        if (arr == null || x < 0 ) {
             return arr;
         }
         // decrement counter
@@ -44,7 +44,7 @@ public class Stack {
         // new array
         String[] newStack = new String[x];
 
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < x ; i++) {
             newStack[i] = arr[i];
         }
 
