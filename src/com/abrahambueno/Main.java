@@ -14,6 +14,11 @@ public class Main {
         System.out.println("Print the stack: " + Arrays.toString(testing.getStack()));
         testing.pop();
         System.out.println("Print the stack: " + Arrays.toString(testing.getStack()));
+        testing.pop();
+        System.out.println("Print the stack: " + Arrays.toString(testing.getStack()));
+        testing.pop();
+        System.out.println("Print the stack: " + Arrays.toString(testing.getStack()));
+        System.out.println("Number of items: " + testing.x);
 
     }
 }
