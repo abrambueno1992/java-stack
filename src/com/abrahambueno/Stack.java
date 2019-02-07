@@ -33,9 +33,9 @@ public class Stack {
     }
 
     public void pop() {
-        stack = newArray(stack);
+        stack = smallerArray(stack);
     }
-    public String[] newArray(String[] arr) {
+    public String[]  smallerArray(String[] arr) {
         if (arr == null || x < 0 ) {
             return arr;
         }
